@@ -28,7 +28,7 @@
   "assets": [
     "baseReduced",
     "scene/solarsystem/planets/earth/earth",
-    "${USER}data/assets-dev/flight-practice/make-targets-for-earth-flight-1"
+    "${USER}/data/assets-dev/flight-practice/make-targets-for-earth-flight-1"
   ],
   "camera": {
     "altitude": 15000000.0,
