@@ -27,7 +27,7 @@
   ],
   "additional_scripts": [
     "openspace.time.setPause(true)",
-    "openspace.navigation.loadNavigationState('${USER_ASSETS}/flight-practice/marsflight2start.txt')"
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/flight-practice/marsflight2start.txt')"
   ],
   "assets": [
     "baseReduced",
