@@ -25,6 +25,10 @@
       "script": "openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Aim', '');openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Anchor', 'Earth')openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.RetargetAnchor', nil);"
     }
   ],
+  "additional_scripts": [
+    "openspace.time.setPause(true)",
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/flight-practice/earthflight1start.txt')"
+  ],
   "assets": [
     "baseReduced",
     "scene/solarsystem/planets/earth/earth",
