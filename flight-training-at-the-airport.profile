@@ -27,12 +27,12 @@
   ],
   "additional_scripts": [
     "openspace.time.setPause(true)",
-    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/flight-practice/LaGuardiaAirportflightstart.txt')"
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/flight-practice/LGAlandingstart.txt')"
   ],
   "assets": [
     "baseReduced",
     "scene/solarsystem/planets/earth/earth",
-    "${USER}/data/assets-dev/flight-practice/make-targets-airport"
+    "${USER}/data/assets-dev/flight-practice/make-targets-for-airport"
   ],
   "camera": {
     "altitude": 15000000.0,
