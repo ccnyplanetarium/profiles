@@ -120,6 +120,26 @@
       "name": "Scene.Europa.Renderable.PerformShading",
       "type": "setPropertyValueSingle",
       "value": "false"
+    },
+    {
+      "name": "Scene.IoTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "20.000000"
+    },
+    {
+      "name": "Scene.GanymedeTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "20.000000"
+    },
+    {
+      "name": "Scene.EuropaTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "20.000000"
+    },
+    {
+      "name": "Scene.CallistoTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "20.000000"
     }
   ],
   "time": {
