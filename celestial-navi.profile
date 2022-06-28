@@ -112,6 +112,11 @@
       "value": "false"
     },
     {
+      "name": "Scene.NavigationStars.Renderable.Enabled",
+      "type": "setPropertyValue",
+      "value": "false"
+    },
+    {
       "name": "Scene.BrightStars.Renderable.Enabled",
       "type": "setPropertyValueSingle",
       "value": "false"
