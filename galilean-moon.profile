@@ -76,11 +76,11 @@
   ],
   "mark_nodes": [
     "Earth",
-    "Mars",
-    "Moon",
-    "Sun",
-    "Venus",
-    "ISS"
+    "Jupiter",
+    "Io",
+    "Europa",
+    "Ganymede",
+    "Callisto"
   ],
   "meta": {
     "author": "OpenSpace Team",
@@ -91,6 +91,16 @@
     "version": "1.0"
   },
   "properties": [
+    {
+      "name": "Scene.Earth.Renderable.Layers.ColorLayers.ESRI_World_Imagery.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "true"
+    },
+    {
+      "name": "Scene.Earth.Renderable.Layers.ColorLayers.ESRI_VIIRS_Combo.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
+    },
     {
       "name": "{earth_satellites}.Renderable.Enabled",
       "type": "setPropertyValue",

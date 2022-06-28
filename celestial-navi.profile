@@ -25,6 +25,9 @@
       "script": "openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Aim', '');openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Anchor', 'Earth')openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.RetargetAnchor', nil);"
     }
   ],
+  "additional_scripts": [
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/thebearandthedragon.txt')"
+  ],
   "assets": [
     "base",
     "events/toggle_sun",
@@ -36,8 +39,8 @@
   "camera": {
     "altitude": 17000000.0,
     "anchor": "Earth",
-    "latitude": 58.5877,
-    "longitude": 16.1924,
+    "latitude": 40.7857,
+    "longitude": -73.8708,
     "type": "goToGeo"
   },
   "delta_times": [
@@ -94,14 +97,29 @@
   },
   "properties": [
     {
+      "name": "Scene.Earth.Renderable.Layers.ColorLayers.ESRI_World_Imagery.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "true"
+    },
+    {
+      "name": "Scene.Earth.Renderable.Layers.ColorLayers.ESRI_VIIRS_Combo.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
+    },
+    {
       "name": "{earth_satellites}.Renderable.Enabled",
       "type": "setPropertyValue",
+      "value": "false"
+    },
+    {
+      "name": "Scene.BrightStars.Renderable.Enabled",
+      "type": "setPropertyValueSingle",
       "value": "false"
     }
   ],
   "time": {
-    "type": "relative",
-    "value": "-1d"
+    "type": "absolute",
+    "value": "2022-06-27T18:06:00"
   },
   "version": {
     "major": 1,
