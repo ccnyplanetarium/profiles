@@ -23,9 +23,26 @@
       "is_local": false,
       "name": "Focus on Earth",
       "script": "openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Aim', '');openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Anchor', 'Earth')openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.RetargetAnchor', nil);"
+    },
+    {
+      "documentation": "Makes Jupiter's moons 50x larger",
+      "gui_path": "/Solar System/Jupiter",
+      "identifier": "growmoons",
+      "is_local": false,
+      "name": "Grow Jupiters Moons",
+      "script": "openspace.action.triggerAction(\"os.Grow_{moon_jupiter}\")\n"
+    },
+    {
+      "documentation": "Make Jupiter's moon 1x normal size.",
+      "gui_path": "/Solar System/Jupiter",
+      "identifier": "shrinkmoons",
+      "is_local": false,
+      "name": "Shrink Jupiters Moons",
+      "script": "openspace.action.triggerAction(\"os.Shrink_{moon_jupiter}\")\n"
     }
   ],
   "assets": [
+    "actions/planets/scale_planets_and_moons",
     "base",
     "events/toggle_sun",
     "scene/solarsystem/planets/earth/earth",
@@ -62,16 +79,16 @@
   ],
   "keybindings": [
     {
-      "action": "profile.toggle.satellite",
-      "key": "S"
-    },
-    {
-      "action": "profile.focus.iss",
-      "key": "I"
-    },
-    {
       "action": "profile.focus.earth",
       "key": "HOME"
+    },
+    {
+      "action": "growmoons",
+      "key": "B"
+    },
+    {
+      "action": "shrinkmoons",
+      "key": "S"
     }
   ],
   "mark_nodes": [
