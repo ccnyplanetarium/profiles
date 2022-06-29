@@ -33,8 +33,7 @@
     "events/toggle_sun",
     "scene/solarsystem/planets/earth/earth",
     "scene/solarsystem/planets/earth/satellites/satellites",
-    "${USER}/data/assets-dev/navigationstars/navigationstars-catalog",
-    "${USER}/data/assets-dev/alternate-stars/brightstars-catalog"
+    "${USER}/data/assets-dev/navigationstars/navigationstars-catalog"
   ],
   "camera": {
     "altitude": 17000000.0,
@@ -69,10 +68,6 @@
     {
       "action": "profile.toggle.satellite",
       "key": "S"
-    },
-    {
-      "action": "profile.focus.iss",
-      "key": "I"
     },
     {
       "action": "profile.focus.earth",
@@ -120,6 +115,21 @@
       "name": "Scene.BrightStars.Renderable.Enabled",
       "type": "setPropertyValueSingle",
       "value": "false"
+    },
+    {
+      "name": "Scene.gps-ops.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "10.100000"
+    },
+    {
+      "name": "Scene.VenusTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "16.800000"
+    },
+    {
+      "name": "Scene.MercuryTrail.Renderable.Appearance.LineWidth",
+      "type": "setPropertyValueSingle",
+      "value": "16.990000"
     }
   ],
   "time": {
