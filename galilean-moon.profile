@@ -9,14 +9,6 @@
       "script": "local list = openspace.getProperty('{earth_satellites}.Renderable.Enabled'); for _,v in pairs(list) do openspace.setPropertyValueSingle(v, not openspace.getPropertyValue(v)) end"
     },
     {
-      "documentation": "Refocuses the camera on the ISS",
-      "gui_path": "/Solar System/Earth",
-      "identifier": "profile.focus.iss",
-      "is_local": false,
-      "name": "Focus ISS",
-      "script": "openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Aim', '');openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.Anchor', 'ISS');openspace.setPropertyValueSingle('NavigationHandler.OrbitalNavigator.RetargetAnchor', nil);"
-    },
-    {
       "documentation": "Retargets the camera on Earth",
       "gui_path": "/Solar System/Earth",
       "identifier": "profile.focus.earth",
@@ -39,6 +31,14 @@
       "is_local": false,
       "name": "Shrink Jupiters Moons",
       "script": "openspace.action.triggerAction(\"os.Shrink_{moon_jupiter}\")\n"
+    },
+    {
+      "documentation": "Flies to Earth",
+      "gui_path": "/Solar System/Earth",
+      "identifier": "flytoEarth",
+      "is_local": false,
+      "name": "Fly to Earth",
+      "script": "openspace.pathnavigation.flyTo(\"Earth\")\n"
     }
   ],
   "assets": [
@@ -79,7 +79,7 @@
   ],
   "keybindings": [
     {
-      "action": "profile.focus.earth",
+      "action": "flytoEarth",
       "key": "HOME"
     },
     {
