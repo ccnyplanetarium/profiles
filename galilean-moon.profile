@@ -39,6 +39,14 @@
       "is_local": false,
       "name": "Fly to Earth",
       "script": "openspace.pathnavigation.flyTo(\"Earth\")\n"
+    },
+    {
+      "documentation": "Flies to Jupiter",
+      "gui_path": "/Solar System/Jupiter",
+      "identifier": "flytojupiter",
+      "is_local": false,
+      "name": "Fly to Jupiter",
+      "script": "openspace.pathnavigation.flyTo(\"Jupiter\")"
     }
   ],
   "assets": [
@@ -89,6 +97,10 @@
     {
       "action": "shrinkmoons",
       "key": "S"
+    },
+    {
+      "action": "flytojupiter",
+      "key": "J"
     }
   ],
   "mark_nodes": [
@@ -167,6 +179,16 @@
       "name": "Scene.CallistoTrail.Renderable.Appearance.LineWidth",
       "type": "setPropertyValueSingle",
       "value": "20.000000"
+    },
+    {
+      "name": "Scene.ISSModel.Renderable.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
+    },
+    {
+      "name": "Scene.ISS_trail.Renderable.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
     }
   ],
   "time": {
