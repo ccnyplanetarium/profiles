@@ -33,7 +33,10 @@
     "events/toggle_sun",
     "scene/solarsystem/planets/earth/earth",
     "scene/solarsystem/planets/earth/satellites/satellites",
-    "${USER}/data/assets-dev/navigationstars/navigationstars-catalog"
+    "${USER}/data/assets-dev/navigationstars/navigationstars-catalog",
+    "${USER}/data/assets-dev/constellations/constellation_art",
+    "${USER}/data/assets-dev/constellations/constellation_extrakeybinds",
+    "${USER}/data/assets-dev/constellations/constellation_keybinds"
   ],
   "camera": {
     "altitude": 17000000.0,
