@@ -26,7 +26,11 @@
     }
   ],
   "additional_scripts": [
-    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/thebearandthedragon.txt')"
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/thebearandthedragon.txt')",
+    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"PoleStarHistory\",[\"Name\"] = \"Pole Star History\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/1/16/Precession_N.gif\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",
+    "",
+    "",
+    ""
   ],
   "assets": [
     "base",
@@ -36,7 +40,8 @@
     "${USER}/data/assets-dev/navigationstars/navigationstars-catalog",
     "${USER}/data/assets-dev/constellations/constellation_art",
     "${USER}/data/assets-dev/constellations/constellation_extrakeybinds",
-    "${USER}/data/assets-dev/constellations/constellation_keybinds"
+    "${USER}/data/assets-dev/constellations/constellation_keybinds",
+    "${USER}/data/assets-dev/markers/markers/solarsystem_markers"
   ],
   "camera": {
     "altitude": 17000000.0,
@@ -115,11 +120,6 @@
       "value": "false"
     },
     {
-      "name": "Scene.BrightStars.Renderable.Enabled",
-      "type": "setPropertyValueSingle",
-      "value": "false"
-    },
-    {
       "name": "Scene.gps-ops.Renderable.Appearance.LineWidth",
       "type": "setPropertyValueSingle",
       "value": "10.100000"
@@ -133,6 +133,16 @@
       "name": "Scene.MercuryTrail.Renderable.Appearance.LineWidth",
       "type": "setPropertyValueSingle",
       "value": "16.990000"
+    },
+    {
+      "name": "ScreenSpace.PoleStarHistory.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
+    },
+    {
+      "name": "Scene.MoonMarkerJAH.Scale.Scale",
+      "type": "setPropertyValueSingle",
+      "value": "0.100000"
     }
   ],
   "time": {
