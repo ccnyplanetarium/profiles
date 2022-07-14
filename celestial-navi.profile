@@ -41,7 +41,8 @@
     "${USER}/data/assets-dev/constellations/constellation_art",
     "${USER}/data/assets-dev/constellations/constellation_extrakeybinds",
     "${USER}/data/assets-dev/constellations/constellation_keybinds",
-    "${USER}/data/assets-dev/markers/markers/solarsystem_markers"
+    "${USER}/data/assets-dev/markers/markers/solarsystem_markers",
+    "${USER}/data/assets-dev/alternate-stars/brightstars-catalog"
   ],
   "camera": {
     "altitude": 17000000.0,
@@ -73,10 +74,6 @@
     630720000.0
   ],
   "keybindings": [
-    {
-      "action": "profile.toggle.satellite",
-      "key": "S"
-    },
     {
       "action": "profile.focus.earth",
       "key": "HOME"
@@ -143,6 +140,16 @@
       "name": "Scene.MoonMarkerJAH.Scale.Scale",
       "type": "setPropertyValueSingle",
       "value": "0.100000"
+    },
+    {
+      "name": "Scene.ISS_trail.Renderable.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
+    },
+    {
+      "name": "Scene.BrightStars.Renderable.Enabled",
+      "type": "setPropertyValueSingle",
+      "value": "false"
     }
   ],
   "time": {
