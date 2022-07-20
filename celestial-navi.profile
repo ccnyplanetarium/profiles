@@ -42,6 +42,7 @@
     "${USER}/data/assets-dev/constellations/constellation_extrakeybinds",
     "${USER}/data/assets-dev/constellations/constellation_keybinds",
     "${USER}/data/assets-dev/markers/markers/solarsystem_markers",
+    "${USER}/data/assets-dev/markers/markers/north_star_markers",
     "${USER}/data/assets-dev/alternate-stars/brightstars-catalog"
   ],
   "camera": {
@@ -132,11 +133,6 @@
       "value": "16.990000"
     },
     {
-      "name": "ScreenSpace.PoleStarHistory.Enabled",
-      "type": "setPropertyValueSingle",
-      "value": "false"
-    },
-    {
       "name": "Scene.MoonMarkerJAH.Scale.Scale",
       "type": "setPropertyValueSingle",
       "value": "0.100000"
@@ -150,6 +146,16 @@
       "name": "Scene.BrightStars.Renderable.Enabled",
       "type": "setPropertyValueSingle",
       "value": "false"
+    },
+    {
+      "name": "Scene.PolarisMarker.Scale.Scale",
+      "type": "setPropertyValueSingle",
+      "value": "2.320000"
+    },
+    {
+      "name": "Scene.ErraiMarker.Scale.Scale",
+      "type": "setPropertyValueSingle",
+      "value": "0.300000"
     }
   ],
   "time": {
