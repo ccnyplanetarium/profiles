@@ -26,10 +26,7 @@
     }
   ],
   "additional_scripts": [
-    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/IslandofCalypso.txt')",
-    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"PoleStarHistory\",[\"Name\"] = \"Pole Star History\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/1/16/Precession_N.gif\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",
-    "",
-    "",
+    "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/odyssey-states/islandofthecyclopes.txt')",
     ""
   ],
   "assets": [
@@ -48,8 +45,8 @@
   "camera": {
     "altitude": 17000000.0,
     "anchor": "Earth",
-    "latitude": 39.8638,
-    "longitude": 19.4300,
+    "latitude": 38.3752,
+    "longitude": 15.0037,
     "type": "goToGeo"
   },
   "delta_times": [
@@ -85,8 +82,9 @@
     "Mars",
     "Moon",
     "Sun",
-    "Venus",
-    "ISS"
+    "TargetModel1",
+    "TargetModel2",
+    "TargetModel3"
   ],
   "meta": {
     "author": "OpenSpace Team",
@@ -118,21 +116,6 @@
       "value": "false"
     },
     {
-      "name": "Scene.gps-ops.Renderable.Appearance.LineWidth",
-      "type": "setPropertyValueSingle",
-      "value": "10.100000"
-    },
-    {
-      "name": "Scene.VenusTrail.Renderable.Appearance.LineWidth",
-      "type": "setPropertyValueSingle",
-      "value": "16.800000"
-    },
-    {
-      "name": "Scene.MercuryTrail.Renderable.Appearance.LineWidth",
-      "type": "setPropertyValueSingle",
-      "value": "16.990000"
-    },
-    {
       "name": "Scene.MoonMarkerJAH.Scale.Scale",
       "type": "setPropertyValueSingle",
       "value": "0.100000"
@@ -160,7 +143,7 @@
   ],
   "time": {
     "type": "absolute",
-    "value": "2021-11-27T01:00:00"
+    "value": "2021-11-27T10:00:00"
   },
   "version": {
     "major": 1,
