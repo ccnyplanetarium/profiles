@@ -27,7 +27,10 @@
   ],
   "additional_scripts": [
     "openspace.navigation.loadNavigationState('${USER}/data/assets-dev/odyssey-states/islandofthecyclopes.txt')",
-    ""
+    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"Polyphemus\",[\"Name\"] = \"Polyphemus\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/4/47/Polyphemus.png\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",
+    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"Polyphemus2\",[\"Name\"] = \"Art of Odysseus Stabbing Polyphemus\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Polyphemus_Eleusis_2630.jpg/1024px-Polyphemus_Eleusis_2630.jpg\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",
+    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"Circe\",[\"Name\"] = \"Circe\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/1/11/Circe-Frederick_Stuart_Church-1910.9.4_1a_Smithsonian_American_Art_Museum.jpg\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",
+    "openspace.addScreenSpaceRenderable({[\"Identifier\"] = \"Calypso\",[\"Name\"] = \"Calypso\",[\"Type\"] = \"ScreenSpaceImageOnline\",[\"URL\"] = \"https://upload.wikimedia.org/wikipedia/commons/f/f7/Hendrick_van_Balen_-_Odysseus_as_guest_at_the_nymph_Calypso.jpg\",[\"CartesianPosition\"] = {0.000000,-0.260000,-2.000000},[\"Scale\"] = 0.520000})",""
   ],
   "assets": [
     "base",
